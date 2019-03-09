@@ -1,19 +1,14 @@
 import React from 'react'
 import { withSiteData } from 'react-static'
+import "../styles/index.css"
 
 export default withSiteData(() => (
-  <div style={{ textAlign: 'center' }}>
+  <div className={"home"}>
     <h1>
-      Welcome to React-Static <br /> + TypeScript
+      Welcome! This is Qi Shu
     </h1>
     <p>
-      Learn{' '}
-      <a href="https://github.com/sw-yx/react-typescript-cheatsheet">
-        React + TypeScript
-      </a>
-    </p>
-    <p>
-      <a href="https://twitter.com/swyx">Report issues with this template</a>
+      A students who loves thinking, analyzing and designing at the University of Waterloo
     </p>
   </div>
 ))
