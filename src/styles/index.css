@@ -1,0 +1,11 @@
+.index {
+    background-image: url("../images/home-desk.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    -webkit-background-size:cover;
+    height: 1000px;
+}
