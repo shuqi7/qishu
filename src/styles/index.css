@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
 .home {
     background: url("../images/home-desk.jpeg") no-repeat fixed center center;
     background-size:cover;
@@ -7,11 +9,21 @@
     height: 95vh;
 }
 
-h1 {
+.home h1, h4{
     color: #ffffff;
     margin: 0;
 }
 
-p {
-    color: #ffffff;
+.home h4 {
+    padding-top: 30vh;
+    padding-left: 25%;
+    font-size: 45px;
+    font-style: italic;
+}
+
+.home h1 {
+    padding-left: 30%;
+    padding-top: 3vh;
+    font-size: 64px;
+    font-family: 'Quicksand', sans-serif;
 }
