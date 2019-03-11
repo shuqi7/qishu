@@ -1,1 +1,24 @@
-.about
+.about .experience-para {
+  font-weight: bold;
+}
+
+.about .article {
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.about h1, h2, h3, h4 {
+  margin: 0;
+}
+
+.about .title {
+  text-align: center;
+  font-size: 35px;
+}
+
+.about .intro .paragraph {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
